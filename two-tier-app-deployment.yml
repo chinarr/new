@@ -16,11 +16,11 @@ spec:
     spec:
       containers:
         - name: two-tier-app-container
-          image: shri2151/flaskapp:62
+          image: chinar016/app:latest
           imagePullPolicy: Always
           env:
             - name: MYSQL_HOST
-              value: "10.100.60.58"
+              value: "10.100.21.214"
             - name: MYSQL_USER
               value: "root"
             - name: MYSQL_PASSWORD
